@@ -1,6 +1,4 @@
-# In this file I generate a realistic dataset of 800 UK bank branches
-with deliberate dirty data injection to simulate real-world
-data quality issues.
+# In this file I generate a realistic dataset of 800 UK bank branches with deliberate dirty data injection to simulate real-world data quality issues.
 
 import pandas as pd
 import random

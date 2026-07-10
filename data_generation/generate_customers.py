@@ -1,6 +1,4 @@
-# We generates a realistic dataset of 1,000,000 UK bank customers
-again with deliberate dirty data injection to simulate real-world
-data quality issues.
+# We generates a realistic dataset of 1,000,000 UK bank customers again with deliberate dirty data injection to simulate real-world data quality issues.
 
 # generate_branches.py must be run first  because it uses branches DataFrame
 

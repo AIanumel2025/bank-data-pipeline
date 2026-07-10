@@ -1,9 +1,6 @@
-# we generate a realistic dataset of 200000 UK bank loans
-with deliberate dirty data injection to simulate real-world
-data quality issues.
+# we generate a realistic dataset of 200000 UK bank loans with deliberate dirty data injection to simulate real-world data quality issues.
 
 # generate_customers.py must be run first (uses customers DataFrame)
-"""
 
 import pandas as pd
 import numpy as np
@@ -60,7 +57,7 @@ def generate_loans(customers):
     return pd.DataFrame(loans)
 
 
-# ── Dirty Data Injection ──────────────────────────────────────────────────────
+# Dirty Data Injection
 def inject_loans_dirty(df):
     # Null interest rates
     null_idx = df.sample(frac=0.05).index
