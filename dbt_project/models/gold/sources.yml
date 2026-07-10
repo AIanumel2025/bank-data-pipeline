@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: fintechflow_silver
+    database: awsdatacatalog
+    schema: fintechflow_silver
+    tables:
+      - name: transactions
+      - name: branches
+      - name: customers
+      - name: loans
