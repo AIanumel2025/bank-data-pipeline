@@ -1,6 +1,6 @@
 # fintechflow — A complete Banking Data Pipeline on AWS
 
-A production-grade data engineering project which simulates a UK bank's data infrastructure. It is built entirely on using Python, and several AWS services, including Glue, Athena, dbt, with Tableau for visualisation.
+A production-grade data engineering project which simulates a UK bank's data infrastructure. It is built using Python, and several AWS services, including Glue, Athena, dbt, with Tableau for visualisation.
 
 ---
 
